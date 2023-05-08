@@ -1,0 +1,95 @@
+:root {
+  --primary: #042366;
+  --secondary: #95dbb8;
+  --white: #fff;
+  --font-large: 3.2rem;
+  --font-medium: 2.5rem;
+  --font-span: 1.7rem;
+  --font-btn: 1.2rem;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section.ads {
+  background: var(--secondary);
+  padding: 1.5%;
+  text-align: center;
+  border-radius: 30px;
+  min-width: 250px;
+  max-width: 290px;
+  aspect-ratio: 16/9;
+  box-shadow:  5px 5px 10px 4px rgba(0, 0, 0, 0.1);
+}
+
+section.ads > h3 {
+  font-size: var(--font-large);
+  margin: 0px;
+  color: var(--primary);
+  font-weight: 900;
+}
+
+section.ads > h4 {
+  font-size: var(--font-medium);
+  font-weight:700;
+  margin: 0px;
+  color: var(--primary);
+}
+
+section.ads > div.box-date > span {
+  font-size: var(--font-span);
+  font-weight: bold;
+  color: var(--primary);
+  align-self: center;
+  text-align: center;
+  font-family: monospace;
+  width: 100%;
+}
+
+div.circle {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: var(--primary);
+  width: max-content;
+  padding: 2%;
+}
+
+div.box-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.box-photo {
+  text-align: center;
+  position: relative;
+  margin-top: 12%;
+  margin-bottom: 3%;
+}
+
+div.box-photo > img {
+  overflow: hidden;
+  width: 70%;
+  object-fit: contain;
+  border: solid 12px var(--white);
+}
+
+div.box-photo > a.btnCallToAction{
+  background: var(--primary);
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: var(--white);
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  font-size: var(--font-btn);
+  position: absolute;
+  left:20%;
+  bottom: 0;
+}
+
+p {
+  line-height: 22px;
+ }
